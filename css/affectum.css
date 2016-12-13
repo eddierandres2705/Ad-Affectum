@@ -80,9 +80,9 @@ header nav a{
 .fondo button{
 	font-size: 15px;
 	border-radius: 5px;
-	padding: 15px;
+	padding: 18px;
 	border-style: none;
-	background:#fe0000;
+	background:#cc0010;
 	margin-left: 5px;
     margin-right: 5px;
     margin-top: 20px;
@@ -91,8 +91,18 @@ header nav a{
     margin-top: 30px;
 }
 
+.main button a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.main button:hover{
+	background: black;
+	color: red;
+}
+
 header nav a:hover{
-	background:#fe0000;
+	background:#cc0010;
 }
 
 
@@ -197,15 +207,31 @@ header nav a:hover{
 	padding-left: 20px;
 	padding-top: 15px;
 	border-style: none;
-	background:#fe0000;
+	background:#cc0010;
 	margin-left: 5px;
     margin-right: 5px;
     margin-top: 20px;
     color: #fff;
-    margin-left: 598px;
+    margin-left: 610px;
     margin-top: -64px;
    display: block;
 
+}
+
+.mensaje{
+	width: 100%;
+	margin: auto;
+}
+
+.mensaje p{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	font-size: 19px;
+	margin-left: 127px;
 }
 
 .mensaje button a {
@@ -214,6 +240,11 @@ header nav a:hover{
 	 display: flex;
 	 text-align: center;
 	 justify-content: center;
+}
+
+.mensaje button:hover{
+	background:black;
+	color: #fff;
 }
 
 .cubos a .caja:hover{
