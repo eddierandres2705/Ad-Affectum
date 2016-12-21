@@ -79,10 +79,6 @@ header{
 	margin-right: 10px;
 	display:flex;
 }
-
-.menu{
-	display: inline;
-}
 	
 
 .menu nav li{
@@ -445,4 +441,5 @@ footer{
 .derecha .icon-twitter:hover{
 	background-color: #2271B3;
 	color: #fff;
+	
 }
