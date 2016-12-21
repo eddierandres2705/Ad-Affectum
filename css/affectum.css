@@ -22,7 +22,6 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
   font-size: 50px;
 
   /* Better Font Rendering =========== */
@@ -77,18 +76,21 @@ header{
 
 .menu nav{
 	background-color: #cc0010;
-	padding: 15px;
 	margin-right: 10px;
+	display:flex;
 }
 
+.menu{
+	display: inline;
+}
+	
 
-.menu nav a{
-	width: 50%;
+.menu nav li{
 	flex-direction:row;
 	flex-wrap: wrap;
-	text-decoration: none;
+	list-style: none;
 	color: #fff;
-	padding: 15px;
+	padding: 10px 15px;
 	font-family: 'Ek Mukta', sans-serif;
 }
 
@@ -170,7 +172,7 @@ header{
 .central{
 	width: 100%;
 	background-color: #222;
-	height: 600px;
+	padding-bottom: 200px;
 }
 
 
@@ -197,7 +199,7 @@ header{
 
 .ancho-interno a{
 	text-decoration: none;
-	
+	padding: 20px;
 }
 
 a .primera{
@@ -376,14 +378,14 @@ a .tercera:hover{
 
 .social{
 	width: 100%;
-	height: 400px;
 	background-color: #222;
 }
 
 .emboltura{
 	width: 80%;
 	margin: auto;
-	height: 390px;
+	padding-top: 97px;
+	padding-bottom: 97px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
