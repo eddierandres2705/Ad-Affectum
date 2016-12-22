@@ -81,13 +81,48 @@ header{
 }
 	
 
-.menu nav li{
+.menu nav li {
 	flex-direction:row;
 	flex-wrap: wrap;
 	list-style: none;
 	color: #fff;
 	padding: 10px 15px;
+	
+}
+
+.menu nav li a{
+	text-decoration: none;
+	color: #fff;
 	font-family: 'Ek Mukta', sans-serif;
+}
+
+.menu ul {
+	display: block;
+	background-color: #FFFF00;
+	position: absolute;
+	font-family: 'Ek Mukta', sans-serif;
+	top: 81px;
+	transform: translateX(60%);
+	opacity: 0;
+	transition: all .6s
+}
+
+.menu ul li a{
+	color: #000;
+}
+
+.menu li:hover ul{
+	opacity: 1;
+	transform: translateX(0%);
+}
+
+.menu li a span{
+	transition: all .6s
+}
+
+.menu li:hover span{
+	transform: translateY(10px);
+	opacity: 0;
 }
 
 
@@ -345,6 +380,7 @@ a .tercera:hover{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 }
 
 .subparte-3 p{
@@ -412,20 +448,21 @@ a .tercera:hover{
 
 footer{
 	background-color: #000;
-	height: 60px;
+	
 }
 
 .footer{
-	height: 100%;
+	overflow: hidden;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
 	color: #fff;
 	/*font-family: 'Ek Mukta', sans-serif;*/
 	font-family: 'ABeeZee', sans-serif;
-	font-size: 20px;	
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;	
 }
 
 .derecha .icon-facebook2:hover{
