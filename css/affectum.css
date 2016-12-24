@@ -101,10 +101,10 @@ header{
 	background-color: #FFFF00;
 	position: absolute;
 	font-family: 'Ek Mukta', sans-serif;
-	top: 81px;
+	top: 86px;
 	transform: translateX(60%);
-	opacity: 0;
-	transition: all .6s
+	visibility: hidden;
+	transition: all .1s
 }
 
 .menu ul li a{
@@ -112,7 +112,7 @@ header{
 }
 
 .menu li:hover ul{
-	opacity: 1;
+	visibility: visible;
 	transform: translateX(0%);
 }
 
@@ -120,10 +120,6 @@ header{
 	transition: all .6s
 }
 
-.menu li:hover span{
-	transform: translateY(10px);
-	opacity: 0;
-}
 
 
 .superior{
@@ -150,14 +146,14 @@ header{
 .wrap{
 	padding-bottom: 80px;
 	width: 80%;
+	margin: 0 auto;
 }
 
 .wrap-titulo{
-	max-width: 1366px;
-	width: 100%;
+	max-width: auto;
+	width: 80%;
 	height: 100%;
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
@@ -327,6 +323,7 @@ a .segunda:hover{
 	padding-bottom: 30px;
 	padding-right: 50px;
 	border: 2px solid #cc0010;
+	margin: 0;
 	color: #000;
 	cursor: pointer;
 	width: 300px;
@@ -479,4 +476,45 @@ footer{
 	background-color: #2271B3;
 	color: #fff;
 	
+}
+
+
+@media screen and (max-width: 888px){
+	footer{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.contenedor{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	header{
+		flex-direction: column;
+	}
+
+	.menu{
+		width: 100%;
+	}
+
+	.menu ul{
+		top: 171px;
+	}
+
+	.menu nav{
+		margin: 0;
+		justify-content: space-around;
+
+	}
+
+	.wrap-titulo{
+		padding: inherit;
+		width: 100%;
+		margin: 0;
+		justify-content: center;
+		align-content: center;
+	}
 }
