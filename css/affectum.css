@@ -57,6 +57,9 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	background-color: #222;
+	position: fixed;
+	width: 100%;
+	opacity: 0.8;
 }
 
 .logo {
@@ -144,7 +147,7 @@ header{
 }
 
 .wrap{
-	padding-bottom: 80px;
+	padding-bottom: 0;
 	width: 80%;
 	margin: 0 auto;
 }
@@ -478,6 +481,19 @@ footer{
 	
 }
 
+@media screen and (max-width: 1930px){
+	.contenedor{
+		max-width: 1920px;
+	}
+
+	.superior{
+		max-width: 1920px;
+		height: 950px;
+	}
+
+
+}
+
 
 @media screen and (max-width: 888px){
 	footer{
@@ -519,21 +535,5 @@ footer{
 	}
 }
 
-@media screen and (max-width: 1930px){
-	.contenedor{
-		max-width: 1920px;
-	}
 
-	.superior{
-		max-width: 1920px;
-	}
 
-	.logo{
-		margin-left: 26px;
-		margin-top: 10px;
-	}
-
-	.menu nav {
-		margin-right: 40px;
-	}
-}
