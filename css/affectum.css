@@ -500,12 +500,21 @@ footer{
 		margin-right: 225px;
 	}
 
+	.ancho-interno{
+		max-width: 1500px;
+	}
+
 
 }
 
 @media screen and (max-width: 1400px){
 	.wrap{
 		padding-bottom: 0;
+	}
+
+	.subparte-3 p{
+		margin-left: 30px;
+		margin-right: 30px;
 	}
 
 	.superior{
@@ -518,6 +527,10 @@ footer{
 	footer{
 		text-align: center;
 	}
+
+	header{
+		position: static;
+	}
 }
 
 @media screen and (max-width: 800px){
@@ -529,6 +542,11 @@ footer{
 
 	header{
 		flex-direction: column;
+	}
+
+	.subparte-3 p{
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.menu{
@@ -551,6 +569,12 @@ footer{
 		margin: 0;
 		justify-content: center;
 		align-content: center;
+	}
+}
+
+@media screen and (max-height: 1000px){
+	.superior{
+		height: 900px;
 	}
 }
 
