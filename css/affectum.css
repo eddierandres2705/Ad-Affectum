@@ -502,6 +502,7 @@ footer{
 
 	.ancho-interno{
 		max-width: 1500px;
+		margin: auto;
 	}
 
 
@@ -572,11 +573,7 @@ footer{
 	}
 }
 
-@media screen and (max-height: 1000px){
-	.superior{
-		height: 900px;
-	}
-}
+
 
 
 
