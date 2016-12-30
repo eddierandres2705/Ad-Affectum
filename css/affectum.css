@@ -491,7 +491,21 @@ footer{
 		height: 950px;
 	}
 
+	.wrap{
+		padding-bottom: 0;
+	}
 
+
+}
+
+@media screen and (max-width: 1400px){
+	.wrap{
+		padding-bottom: 0;
+	}
+
+	.superior{
+		height: 678px;
+	}
 }
 
 
