@@ -1,0 +1,334 @@
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?y6ctb2');
+  src:  url('../fonts/icomoon.eot?y6ctb2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?y6ctb2') format('truetype'),
+    url('../fonts/icomoon.woff?y6ctb2') format('woff'),
+    url('../fonts/icomoon.svg?y6ctb2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 50px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook2:before {
+  content: "\face";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+
+
+
+body{
+	margin: 0;
+}
+
+.contenedor{
+	width:100%;
+	max-width:1366px;
+	margin:auto;
+}
+
+header{
+	/*FLEX*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #222;
+	position: fixe
+	width: 100%;
+	opacity: 0.8;
+}
+
+.logo {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+}
+
+
+.menu nav{
+	background-color: #cc0010;
+	margin-right: 10px;
+	display:flex;
+}
+	
+
+.menu nav li {
+	flex-direction:row;
+	flex-wrap: wrap;
+	list-style: none;
+	color: #fff;
+	padding: 10px 15px;
+	
+}
+
+.menu nav li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Ek Mukta', sans-serif;
+}
+
+.menu ul {
+	display: block;
+	background-color: #FFFF00;
+	position: absolute;
+	font-family: 'Ek Mukta', sans-serif;
+	top: 65px;
+	transform: translateX(60%);
+	visibility: hidden;
+	transition: all .1s
+}
+
+.menu ul li a{
+	color: #000;
+}
+
+.menu li:hover ul{
+	visibility: visible;
+	transform: translateX(0%);
+}
+
+.main{
+	width: 100%;
+	margin: auto;
+}
+
+.titulo{
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 20px;
+}
+
+.superior{
+	width: 60%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 20px;
+	font-family: 'Ek Mukta', sans-serif;
+	line-height: 30px;
+	border-bottom: 1px solid #333;
+}
+
+.imagen-1{
+	margin-left: 20px;
+}
+
+.central{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Ek Mukta', sans-serif;
+	line-height: 30px;
+}
+
+.escrito-1 h3{
+	font-size: 30px;
+}
+
+.correos{
+	display: flex;
+}
+
+.correos p{
+	font-size: 26px;
+	font-family: 'Ek Mukta', sans-serif;
+	
+}
+
+.correos a{
+	text-decoration: none;
+	color: red;
+}
+
+.correos li {
+	font-size: 20px;
+}
+
+.equipo{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	line-height: 5px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #333;
+}
+
+.jonathan img{
+	border-radius: 50%;
+}
+
+.juan img {
+	border-radius: 50%;
+}
+
+.dayana img {
+	border-radius: 50%;
+}
+
+.eddier img {
+	border-radius: 50%;
+}
+
+
+.formulario{
+	width: 60%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-top: 30px;
+}
+
+.titulo-formulario p{
+	font-size: 20px;
+	font-family: 'Ek Mukta', sans-serif;
+	width: 60%;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.formulario label{
+	font-size: 25px;
+	margin-bottom: 5px;
+	line-height: 30px;
+}
+
+.formulario #nombre{
+	font-size: 30px;
+	width: 800px;
+}
+
+.formulario #email{
+	font-size: 30px;
+	width: 800px;
+}
+
+.formulario .boton{
+	background-color: #cc0010;
+	color: #fff;
+	font-size: 25px;
+	margin-top: 26px;
+	padding: 12px;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 150px;
+}
+
+.formulario textarea{
+	width: 800px;
+	height: 200px;
+}
+
+.social{
+	width: 100%;
+	background-color: #222;
+}
+
+.emboltura{
+	width: 80%;
+	margin: auto;
+	padding-top: 97px;
+	padding-bottom: 97px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 30px;
+}
+
+.derecha{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.derecha a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+}
+
+.derecha ul{
+	padding-top: 15px;
+}
+
+footer{
+	background-color: #000;
+	
+}
+
+.footer{
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #fff;
+	/*font-family: 'Ek Mukta', sans-serif;*/
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;	
+}
+
+.derecha .icon-facebook2:hover{
+	background-color:#063971;
+	color: #fff;
+}
+
+.derecha .icon-linkedin:hover{
+	background-color:#063971;
+	color:#fff;
+}
+
+.derecha .icon-twitter:hover{
+	background-color: #2271B3;
+	color: #fff;
+	
+}
