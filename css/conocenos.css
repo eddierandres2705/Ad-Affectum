@@ -340,3 +340,45 @@ footer{
 	color: #fff;
 	
 }
+
+@media screen and (max-width: 1930px){
+	.contenedor{
+		width: 100%;
+		max-width: 1920px;
+		margin: auto;
+	}
+
+	.main{
+		width: 80%;
+		margin: auto;
+	}
+
+	.titulo-formulario{
+		margin-left: 142px;
+	}
+
+	.contacto{
+		margin-left: 138px;
+	}
+}
+
+@media screen and (max-width: 1400px){
+	.contenedor{
+		width: 100%;
+		max-width: 1366px;
+		margin: auto;
+	}
+
+	.main{
+		width: 100%;
+		margin: auto;
+	}
+
+	.titulo-formulario{
+		margin-left: 0;
+	}
+
+	.contacto{
+		margin-left: 0;
+	}
+}
