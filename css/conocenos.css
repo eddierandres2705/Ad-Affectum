@@ -387,3 +387,22 @@ footer{
 		margin-left: 0;
 	}
 }
+
+@media screen and (max-width: 665px){
+	header{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.menu{
+		width: 100%;
+	}
+	
+
+	.menu nav {
+		margin-right: 0;
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
