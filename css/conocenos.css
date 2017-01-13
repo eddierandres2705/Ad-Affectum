@@ -404,5 +404,60 @@ footer{
 		display: flex;
 		justify-content: space-around;
 	}
+
+	.titulo{
+		padding-top: 1px;
+	}
+
+	.superior{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.imagen-1{
+		margin-left: 0;
+	}
+
+	.imagen-1 img{
+		height: 158px;
+	}
+
+	.correos{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.equipo{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.tercera{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contacto{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.formulario #nombre{
+		width: 356px;
+	}
+
+	.formulario textarea{
+		width: 356px;
+	}
+
+	.derecha{
+		text-align: center;
+	}
+
+	footer{
+		text-align: center;
+	}
 }
 
