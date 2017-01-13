@@ -522,6 +522,18 @@ footer{
 	}
 }
 
+@media screen and (max-height: 1000px){
+	.superior{
+		height: 918px;
+	}
+}
+
+@media screen and (max-height: 760px){
+	.superior{
+		height: 678px;
+	}
+}
+
 
 @media screen and (max-width: 888px){
 	footer{
