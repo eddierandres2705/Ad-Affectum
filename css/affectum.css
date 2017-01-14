@@ -591,6 +591,10 @@ footer{
 
 @media screen and (max-width: 400px){
 
+    .division{
+    	margin-bottom: 225px;
+    }
+
 	.wrap-titulo h2{
 		font-size: 52px;
 	}
