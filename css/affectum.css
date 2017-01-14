@@ -529,8 +529,13 @@ footer{
 }
 
 @media screen and (max-height: 760px){
+
 	.superior{
 		height: 678px;
+	}
+
+	.derecha{
+		line-height: 1;
 	}
 }
 
@@ -581,6 +586,84 @@ footer{
 		margin: 0;
 		justify-content: center;
 		align-content: center;
+	}
+}
+
+@media screen and (max-width: 400px){
+
+	.wrap-titulo h2{
+		font-size: 52px;
+	}
+
+	.wrap-titulo .button{
+		padding: 9px;
+	}
+
+	.button strong{
+		font-size: 15px;
+	}
+
+	.titulo-central h2{
+		font-size: 24px;
+	}
+
+	.subparte-3 p{
+		font-size: 18px;
+	}
+
+	.izquierda{
+		font-size: 24px;
+	}
+
+	.derecha{
+		font-size: 24px;
+	}
+
+	.derecha ul{
+		line-height: 0;
+	}
+
+	.footer p{
+		font-size: 19px;
+	}
+
+	.primera{
+		width: 238px;
+		height: 238px;
+	}
+
+	.primera h3{
+		font-size: 21px;
+	}
+
+	.primera p{
+		font-size: 19px;
+	}
+
+	.segunda{
+		width: 238px;
+		height: 238px;
+	}
+
+	.segunda h3{
+		font-size: 21px;
+	}
+
+	.segunda p{
+		font-size: 19px;
+	}
+
+	.tercera{
+		width: 238px;
+		height: 238px;
+	}
+
+	.tercera h3{
+		font-size: 21px;
+	}
+
+	.tercera p{
+		font-size: 19px;
 	}
 }
 
