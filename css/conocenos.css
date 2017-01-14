@@ -388,6 +388,93 @@ footer{
 	}
 }
 
+@media screen and (max-width: 1100px){
+	.central{
+		width: 78%;
+	}
+}
+
+@media screen and (max-width: 1040px){
+	.superior{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.imagen-1 img{
+		width: 627px;
+		height: 289px;
+	}
+
+	.imagen-1{
+		margin-left: -1px;
+	}
+
+	.correos{
+		display: flex;
+		justify-content: center;
+	}
+
+	.equipo{
+		width: 119%;
+		margin: 0;
+		margin-left: -57px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.contacto{
+		margin-left: -108px;
+	}
+}
+
+@media screen and (max-width: 770px){
+
+	.formulario{
+		width: 56%;
+	}
+
+	.formulario #nombre{
+		width: 673px;
+	}
+
+	.formulario #email{
+		width: 673px;
+	}
+
+	.formulario textarea{
+		width: 673px;
+	}
+}
+
+@media screen and (max-width: 810px){
+	.equipo{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.contacto{
+		margin-left: -189px;
+	}
+
+	.formulario #nombre{
+		width: 766px;
+	}
+
+	.formulario #email{
+		width: 766px;
+	}
+
+	.formulario textarea{
+		width: 766px;
+	}
+
+	.footer{
+		text-align: center;
+	}
+}
+
 @media screen and (max-width: 665px){
 	header{
 		display: flex;
@@ -444,7 +531,15 @@ footer{
 		flex-direction: column;
 	}
 
+	.formulario{
+		width: 52%;
+	}
+
 	.formulario #nombre{
+		width: 356px;
+	}
+
+	.formulario #email{
 		width: 356px;
 	}
 
