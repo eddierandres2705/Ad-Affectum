@@ -507,6 +507,7 @@ footer{
 
 	.imagen-1 img{
 		height: 158px;
+		width: 282px;
 	}
 
 	.correos{
@@ -519,6 +520,8 @@ footer{
 	.equipo{
 		display: flex;
 		flex-direction: column;
+		width: 100%;
+		margin: auto;
 	}
 
 	.tercera{
@@ -529,6 +532,8 @@ footer{
 	.contacto{
 		display: flex;
 		flex-direction: column;
+		width: 100%;
+		margin-left: -73px;
 	}
 
 	.formulario{
@@ -553,6 +558,24 @@ footer{
 
 	footer{
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 370px){
+	.formulario{
+		width: 56%;
+	}
+
+	.formulario #nombre{
+		width: 334px;
+	}
+
+	.formulario #email{
+		width: 334px;
+	}
+
+	.formulario textarea{
+		width: 334px;
 	}
 }
 
