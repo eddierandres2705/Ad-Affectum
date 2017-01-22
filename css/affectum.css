@@ -91,22 +91,63 @@ header{
 .menu nav li a{
 	text-decoration: none;
 	color: #fff;
-	font-family: 'Ek Mukta', sans-serif;
+	font-family: 'Ek Mukta';
 }
 
 .menu ul {
 	display: block;
-	background-color: #FFFF00;
+	background-color:	#fff;
 	position: absolute;
 	font-family: 'Ek Mukta', sans-serif;
 	top: 70px;
 	transform: translateX(60%);
 	visibility: hidden;
-	transition: all .1s
+	transition: all .1s;
+	padding-left: 0;
+}
+
+.menu nav .a{
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.menu nav .a:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .b{
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.menu nav .b:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .c{
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.menu nav .c:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .d{
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.menu nav .d:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .e{
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.menu nav .e:hover{
+	background-color:	#D3D3D3;
 }
 
 .menu ul li a{
-	color: #000;
+	color: #222;
 }
 
 .menu li:hover ul{
@@ -180,7 +221,7 @@ header{
 }
 
 .wrap-titulo .button{
-	margin-top: -43px;
+	margin-top: -22px;
 	padding: 15px;
 	background-color: #cc0010;
 	color: #fff;
@@ -430,6 +471,10 @@ a .tercera:hover{
 	line-height: 0;
 }
 
+.derecha h4{
+	margin-bottom: 0;
+}
+
 .derecha a{
 	text-decoration: none;
 	color: #fff;
@@ -670,8 +715,3 @@ footer{
 		font-size: 19px;
 	}
 }
-
-
-
-
-

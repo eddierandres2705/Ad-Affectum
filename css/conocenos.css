@@ -103,13 +103,54 @@ header{
 
 .menu ul {
 	display: block;
-	background-color: #FFFF00;
+	background-color:	#C0C0C0;
 	position: absolute;
 	font-family: 'Ek Mukta', sans-serif;
 	top: 70px;
 	transform: translateX(60%);
 	visibility: hidden;
-	transition: all .1s
+	transition: all .1s;
+	padding-left:0;
+}
+
+.menu nav .a{
+	border-bottom: 1px solid #333;
+}
+
+.menu nav .a:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .b{
+	border-bottom: 1px solid #333;
+}
+
+.menu nav .b:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .c{
+	border-bottom: 1px solid #333;
+}
+
+.menu nav .c:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .d{
+	border-bottom: 1px solid #333;
+}
+
+.menu nav .d:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .e{
+	border-bottom: 1px solid #333;
+}
+
+.menu nav .e:hover{
+	background-color:	#D3D3D3;
 }
 
 .menu ul li a{
