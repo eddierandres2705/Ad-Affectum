@@ -1,0 +1,367 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?y6ctb2');
+  src:  url('../fonts/icomoon.eot?y6ctb2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?y6ctb2') format('truetype'),
+    url('../fonts/icomoon.woff?y6ctb2') format('woff'),
+    url('../fonts/icomoon.svg?y6ctb2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 50px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook2:before {
+  content: "\face";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+
+
+
+body{
+	margin: 0;
+}
+
+.contenedor{
+	width:100%;
+	max-width:1366px;
+	margin:auto;
+}
+
+header{
+	/*FLEX*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #222;
+	position: fixed;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.logo {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+}
+
+
+.menu nav{
+	background-color: #cc0010;
+	margin-right: 10px;
+	display:flex;
+}
+	
+
+.menu nav li {
+	flex-direction:row;
+	flex-wrap: wrap;
+	list-style: none;
+	color: #fff;
+	padding: 10px 15px;
+	
+}
+
+.menu nav li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Ek Mukta', sans-serif;
+}
+
+.menu ul {
+	display: block;
+	background-color:	#C0C0C0;
+	position: absolute;
+	font-family: 'Ek Mukta', sans-serif;
+	top: 70px;
+	transform: translateX(60%);
+	visibility: hidden;
+	transition: all .1s;
+	padding-left:0;
+}
+
+.menu nav .a{
+	border: 1px solid #333;
+}
+
+.menu nav .a:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .b{
+	border: 1px solid #333;
+}
+
+.menu nav .b:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .c{
+	border: 1px solid #333;
+}
+
+.menu nav .c:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .d{
+	border: 1px solid #333;
+}
+
+.menu nav .d:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu nav .e{
+	border: 1px solid #333;
+}
+
+.menu nav .e:hover{
+	background-color:	#D3D3D3;
+}
+
+.menu ul li a{
+	color: #000;
+}
+
+.menu li:hover ul{
+	visibility: visible;
+	transform: translateX(0%);
+}
+
+.imagen img{
+	background-size: cover;
+	width: 100%;
+}
+
+.primera-parte{
+	background-image: url('../images/fondo1.jpg');
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 120px;
+}
+
+.lema-1{
+	width: 30%;
+	line-height: 1;
+	margin-left: 55px;
+}
+
+.lema-1 h2{
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 50px;
+	color: #FFC300;  
+}
+
+.lema-1 p{
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 25px;
+	color: #222;  
+}
+
+.lema-2{
+	width: 30%;
+	line-height: 1;
+	margin-right: 55px;
+}
+
+.lema-2 h2{
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 50px;
+	color: #FFC300;  
+}
+
+.lema-2 p{
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 25px;
+	color: #222;  
+}
+
+.segunda-parte{
+	width: 100%;
+}
+
+.ofrecimiento{
+	border-top: 1px solid #c0c0c0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-right: 55px;
+	margin-left: 55px;
+}
+
+.ofrecimiento h2{
+	font-size: 40px;
+	font-family: 'Ek Mukta', sans-serif;
+	color: #FFC300;  
+}
+
+.ofrecimiento nav li{
+	font-size: 20px;
+	color: #222;
+	font-family: 'Ek Mukta', sans-serif;
+}
+
+.juridica{
+	border-top: 1px solid #c0c0c0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-right: 55px;
+	margin-left: 55px;
+	padding-bottom: 50px;
+}
+
+.juridica h2{
+	font-size: 40px;
+	font-family: 'Ek Mukta', sans-serif;
+	color: #FFC300;  
+}
+
+.juridica nav li{
+	font-size: 20px;
+	color: #222;
+	font-family: 'Ek Mukta', sans-serif;
+}
+
+.fiscal{
+	border-top: 1px solid #c0c0c0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-right: 55px;
+	margin-left: 55px;
+	padding-bottom: 50px;
+}
+
+.fiscal h2{
+	font-size: 40px;
+	font-family: 'Ek Mukta', sans-serif;
+	color: #FFC300;  
+}
+
+.fiscal nav li{
+	font-size: 20px;
+	color: #222;
+	font-family: 'Ek Mukta', sans-serif;
+}
+
+.social{
+	width: 100%;
+	background-color: #222;
+}
+
+.emboltura{
+	width: 80%;
+	margin: auto;
+	padding-top: 97px;
+	padding-bottom: 97px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 30px;
+}
+
+.derecha{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.derecha ul{
+	margin-top: 0;
+}
+
+.derecha a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	padding-top: 10px;
+}
+
+
+.izquierda{
+	line-height: 1;
+	text-align: center;
+}
+
+
+footer{
+	background-color: #000;
+	
+}
+
+.footer{
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #fff;
+	/*font-family: 'Ek Mukta', sans-serif;*/
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;	
+}
+
+.derecha .icon-facebook2:hover{
+	background-color:#063971;
+	color: #fff;
+}
+
+.derecha .icon-linkedin:hover{
+	background-color:#063971;
+	color:#fff;
+}
+
+.derecha .icon-twitter:hover{
+	background-color: #2271B3;
+	color: #fff;
+	
+}
+
