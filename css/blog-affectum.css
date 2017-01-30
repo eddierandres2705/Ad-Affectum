@@ -365,3 +365,12 @@ footer{
 	
 }
 
+@media screen and (max-width: 1930px){
+	header{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-left: -268px;
+	}
+
+
