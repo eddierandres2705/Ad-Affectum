@@ -388,5 +388,12 @@ footer{
 	}
 
 
+@media screen and (max-width: 1370px){
+	header{
+		margin-left: 0;
+	}
+}
+
+
 
 
