@@ -371,6 +371,22 @@ footer{
 		flex-direction: row;
 		justify-content: space-around;
 		margin-left: -268px;
+		 }
+
+
+		.social{
+			width: 1920px;
+			margin-left: -269px;
+		}
+
+		.footer{
+			width: 1920px;
+			margin-left: -269px;
+		}
+
+
 	}
+
+
 
 
