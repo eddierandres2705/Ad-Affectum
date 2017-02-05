@@ -360,6 +360,7 @@ a .segunda:hover{
 	padding-top: 12px;
 	padding-bottom: 30px;
 	padding-right: 50px;
+	padding-left: 41px;
 	border: 2px solid #cc0010;
 	margin: 0;
 	color: #000;
@@ -386,8 +387,8 @@ a .tercera:hover{
 .tercera h3{
 	font-family: 'ABeeZee', sans-serif;
 	font-size: 30px;
-	margin-left: 15px;
-	margin-top: 17px;
+	margin-left: -13px;
+	margin-top: 8px;
 	margin-bottom: 0;
 }
 
